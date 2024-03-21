@@ -1,0 +1,62 @@
+{
+  "name":"TextRead",
+  "type":"Empty",
+  "path":"Custom",
+  
+  "version":"1.0.0",
+  "description":"A module for reading local text files periodically from disk",
+  "url":"https://github.com/tommag/Sample-Chataigne-module",
+  "downloadURL":"https://github.com/tommag/Sample-Chataigne-module/archive/master.zip",
+
+  "hasInput":true,
+  "hasOutput":true, 
+
+  "hideDefaultCommands":false,
+  
+  "defaults":
+  {	
+  },
+
+  "parameters":
+  {
+	"Text File Path":
+    {
+      "type":"File",
+      "description":"The path to the file the module will check"
+    },
+  "Text File Check Rate":
+    {
+      "type":"Integer",
+      "min":0,
+      "default":1,
+      "description":"Sets how many times the module will check your text file per second.  You should probably keep this between 1 and 5."
+    },
+  "Overwrite Text File":
+    {
+      "type":"Boolean",
+      "default":"False",
+      "description":"If checked, the entire text file will be overwritten with 'null' each time the module detects a change in the text file.  Useful if you want to avoid duplicate data.  Warning, this will erase your text file."
+    },
+  "Log each check":
+    {
+      "type":"Boolean",
+      "default":"False",
+      "description":"If enabled, the module will send a message to the log each time it checks the text file, rather than only logging when it finds changes.  Use for debug purposes, to see if your checking rate is right for you.  Note that the 'Log' checkbox under the scripts section on the right must also be checked"
+    }
+  },
+
+  "hideDefaultParameters": [],
+
+  "scripts": 
+  [
+    "TxtRead.js"
+  ],
+
+  "values":
+  {
+  },
+
+  "commands":
+  {
+  }
+}
