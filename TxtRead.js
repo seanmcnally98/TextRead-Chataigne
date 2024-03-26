@@ -11,6 +11,7 @@ var text_file_changed = local.values.addBoolParameter("Text File Changed","Descr
 
 function init() {
   script.log("Custom module init");
+  filePath = local.parameters.textFilePath.get();
 }
 
 script.updateRate.set(1);
@@ -36,7 +37,7 @@ function moduleParameterChanged(param) {
 }
 
 function moduleValueChanged(value) {
-  script.log(value.name + " value changed, new value: " + value.get());
+  // debug only script.log(value.name + " value changed, new value: " + value.get());
 }
 
 
