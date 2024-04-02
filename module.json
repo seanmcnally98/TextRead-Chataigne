@@ -22,7 +22,8 @@
 	"Text File Path":
     {
       "type":"File",
-      "description":"The path to the file the module will check"
+      "description":"The path to the file the module will check",
+      "default":"default.txt",
     },
   "Text File Check Rate":
     {
