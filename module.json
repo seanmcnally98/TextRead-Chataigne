@@ -5,8 +5,8 @@
   
   "version":"1.0.0",
   "description":"A module for reading local text files periodically from disk",
-  "url":"https://github.com/tommag/Sample-Chataigne-module",
-  "downloadURL":"https://github.com/tommag/Sample-Chataigne-module/archive/master.zip",
+  "url":"https://github.com/seanmcnally98/TextRead-Chataigne",
+  "downloadURL":"https://github.com/seanmcnally98/TextRead-Chataigne/archive/master.zip",
 
   "hasInput":true,
   "hasOutput":true, 
