@@ -4,7 +4,7 @@
   "path":"System",
   
   "version":"1.0.0",
-  "description":"A module for reading local text files periodically from disk.  Found under the "system" tab.",
+  "description":"A module for reading local text files periodically from disk.  Found under the 'System' tab.",
   "url":"https://github.com/seanmcnally98/TextRead-Chataigne",
   "downloadURL":"https://github.com/seanmcnally98/TextRead-Chataigne/archive/master.zip",
 
